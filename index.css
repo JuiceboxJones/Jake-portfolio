@@ -112,7 +112,7 @@ margin-left: 25%;
 }
 
 #contact-info img{
-  filter: blur(1px);
+  filter: blur(0.6px);
 }
 
 #contact-info img:hover{
