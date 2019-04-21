@@ -38,6 +38,8 @@ header{
 
 .portfolio-img{
   width: 60%;
+  border-radius: 3px;
+  box-shadow: 0px 0px 8px 4px #bdbdbd;
 }
 
 #avatar{
@@ -132,12 +134,17 @@ span{
   cursor: pointer;
   box-shadow: 3px 5px 13px 1px #b98a0080;
   margin: 0 2%;
+  transition: box-shadow 500ms ease-in;
+  transition: background 500ms ease-in;
+  
 }
 
 .visit-projects button:hover{
   color: black;
   background: #FBBC05;
   box-shadow: 3px 5px 13px 1px #0000009e;
+  transition: background 500ms ease-out;
+  
 }
 
 
